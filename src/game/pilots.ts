@@ -1,0 +1,100 @@
+import { Pilot } from './types';
+
+export const PILOTS: Pilot[] = [
+  {
+    id: 'kira',
+    name: 'Kira',
+    callsign: 'LOTUS-1',
+    title: 'Sakura Drift Queen',
+    carName: 'Sakura Interceptor',
+    carColor: '#ff2a85',
+    glowColor: '#ff70a6',
+    accentColor: '#fda4af',
+    badgeEmoji: '🌸',
+    quote: 'Speed is pure art. Watch my pink trails bloom across the grid!',
+    perk: '+30% Agile Neural Steering & Drifting',
+    perkType: 'handling',
+  },
+  {
+    id: 'valkyrie',
+    name: 'Valkyrie',
+    callsign: 'AURA-9',
+    title: 'AI Neural Sovereign',
+    carName: 'Valkyrie Phantom',
+    carColor: '#a855f7',
+    glowColor: '#c084fc',
+    accentColor: '#e9d5ff',
+    badgeEmoji: '⚡',
+    quote: 'Calculating perfect vectors. AI trajectory locked on victory.',
+    perk: '+35% Nitro Surge & Fuel Regen Rate',
+    perkType: 'nitro',
+  },
+  {
+    id: 'luna',
+    name: 'Luna',
+    callsign: 'STAR-X',
+    title: 'Cosmic Starlight Queen',
+    carName: 'Starlight Velocity',
+    carColor: '#f43f5e',
+    glowColor: '#fb7185',
+    accentColor: '#fecdd3',
+    badgeEmoji: '✨',
+    quote: 'Shining brighter than the neon skyline! Let us claim the crown.',
+    perk: 'Gems & Stars Magnet (+50% Score Yield)',
+    perkType: 'coins',
+  },
+  {
+    id: 'nova',
+    name: 'Nova',
+    callsign: 'NOVA-0',
+    title: 'Crystal Aegis Empress',
+    carName: 'Diamond Aegis',
+    carColor: '#06b6d4',
+    glowColor: '#22d3ee',
+    accentColor: '#cffafe',
+    badgeEmoji: '💎',
+    quote: 'Unbreakable resolve. My crystal nano-shields never shatter.',
+    perk: '+40% Shield Regeneration from Hearts & Repairs',
+    perkType: 'shield',
+  },
+];
+
+export const COPILOT_DIALOGUES = {
+  start: [
+    'Neural links synchronized! Let us dominate the cyber highway, pilot!',
+    'AI co-pilot online. Thrusters hot, looking gorgeous on the grid!',
+    'All systems nominal! Show them the true power of neon cyber racing!',
+  ],
+  overtake: [
+    'Smooth overtake, queen! Opponent left in the dust!',
+    'Tactical sweep executed. Another rival eliminated!',
+    'Slick maneuvering! They could not even match your pace!',
+  ],
+  nearMiss: [
+    'Incredible reflex! Razor-thin precision!',
+    'Dodge confirmed! Millimeter perfection!',
+    'Graceful evade, pilot!',
+  ],
+  hazard: [
+    'Warning: Electromagnetic hazard detected ahead!',
+    'Incoming road threat! Switch lane immediately!',
+    'AI threat detected! Take evasive maneuvers!',
+  ],
+  gem: [
+    'Starlight Gem acquired! Score multiplier surging!',
+    'Radiant crystal captured! Pure style!',
+    'Sparkle bonus secured! Keep collecting!',
+  ],
+  heart: [
+    'Crystal Heart integrated! Nanite shield restored to stability!',
+    'Vitality pulse received! Chassis reinforced!',
+  ],
+  boost: [
+    'Nitro Overdrive activated! Warp speed engaged!',
+    'Maximum thruster output! Feel the cyber rush!',
+  ],
+  lowHealth: [
+    'Caution: Shield integrity below critical! Seek repair modules or crystal hearts!',
+    'Emergency protocols engaged! Focus on evasion!',
+  ],
+};

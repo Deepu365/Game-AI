@@ -1,0 +1,6 @@
+{
+  "name": "Neon Cyber Racing — AI Challenge",
+  "description": "High-octane futuristic cyberpunk racing game featuring intelligent rule-based AI opponents, responsive controls, cyber obstacles, and adaptive difficulty.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
